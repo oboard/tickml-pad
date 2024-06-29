@@ -67,6 +67,10 @@ class _TickMLAppState extends State<TickMLApp> {
               setState(() {});
             },
           ),
+          const Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text('Made with ❤️ by oboard'),
+          ),
         ],
       ),
     );
